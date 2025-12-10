@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import designpatterns "github.com/satyamdash/LLD-Golang/DesignPatterns"
 
 func main() {
-	fmt.Println("hey")
+	designpatterns.Play()
 }
