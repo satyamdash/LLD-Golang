@@ -41,7 +41,7 @@ func (n *Notification) RemoveObserver(obs Observer) {
 	}
 }
 
-func (n *Notification) SetStauts(status string) {
+func (n *Notification) SetStatus(status string) {
 	n.status = status
 	for _, o := range n.observers {
 		o.Status(status)

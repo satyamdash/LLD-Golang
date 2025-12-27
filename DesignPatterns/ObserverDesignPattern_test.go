@@ -8,5 +8,5 @@ func TestMyfunction(t *testing.T) {
 	ping.AddObserver(Email{})
 	ping.AddObserver(PushNotification{})
 
-	ping.SetStauts("mera man")
+	ping.SetStatus("mera man")
 }
